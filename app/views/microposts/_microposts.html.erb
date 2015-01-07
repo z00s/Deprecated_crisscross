@@ -1,0 +1,10 @@
+<% if @user.microposts.any? %>
+    <h3>Microposts (<%= @user.microposts.count %>)</h3>
+    <ul class="list-unstyled maps">
+      <%= render @microposts %>
+    </ul>
+    <%= will_paginate @microposts %>
+<% else %>
+    <h3>木有啊啊啊啊啊啊啊啊啊</h3>
+
+<% end %>

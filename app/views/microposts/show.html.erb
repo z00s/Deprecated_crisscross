@@ -1,0 +1,83 @@
+<div class="panel panel-primary">
+
+  <div class="panel-body">
+        <span class="content">
+          <%= micropost.content %>
+        </span>
+  </div>
+
+  <div class="panel-footer" style="padding: 5px ">
+    <div class="panel-group" id="accordion">
+      <div class="panel" style="border: 0px">
+        <div class="panel-footer" style="padding: 0px; text-align: right">
+          <a id="comments-toggle-<%= micropost.id %>" data-toggle="collapse" data-parent="#accordion" href="#collapse_<%= micropost.id %>">
+            展开评论
+          </a>
+          <% if current_user?(micropost.user) %>
+              <%= link_to "删除", micropost, method: :delete,
+                          data: {confirm: "删除后不能恢复,你确定要删除么?"},
+                          title: micropost.content %>
+          <% end %>
+          <small>Posted <%= time_ago_in_words(micropost.created_at) %> ago.</small>
+        </div>
+        <div id="collapse_<%= micropost.id %>" class="panel-collapse collapse">
+          <div class="panel-footer">
+            <div id="comments_<%= micropost.id %>">
+              <%= render 'comments/comment', remote: true%>
+            </div>
+
+            <!--form end-->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+<script type="text/javascript">
+    var flag = 1;
+    $("#comments-toggle-<%= micropost.id %>").click(function () {
+
+        if (flag == 1) {
+            $("#comments-toggle-<%= micropost.id %>").text("收起评论");
+            $.ajax({
+                type: "GET",
+                url: "<%= micropost_comments_path(micropost.id)%>",
+                dataType: 'script',
+                success: function (comments) {
+
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+//            提示保存失败
+                    alert("保存失败！稍后重试！");
+                }
+            });
+            flag = 0;
+        } else {
+            $("#comments-toggle-<%= micropost.id %>").text("展开评论");
+            flag = 1;
+        }
+
+    });
+</script>
+
+
+
+
+<div id="collapseOne" class="panel-collapse collapse">
+  <div class="panel-footer">
+    <div id="comments">
+      <%= render 'comments/comment2', remote: true %>
+    </div>
+
+    <!--form end-->
+  </div>
+</div>
+
+<a id="comments-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+  展开评论
+</a>
+
+
+

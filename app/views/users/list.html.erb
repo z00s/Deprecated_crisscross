@@ -1,0 +1,22 @@
+<meta charset="utf-8">
+<%= stylesheet_link_tag 'user' %>
+<div class="row">
+  <div class="col-md-2" style="padding: 20px">
+    <%= render 'users/current_user_nav' %>
+  </div>
+  <div class="col-md-10" style="height: 100%">
+    <div class="row">
+      <h1>用户列表</h1>
+      <%= will_paginate %>
+
+      <ul class="users">
+        <%= render @users %>
+      </ul>
+      <%= will_paginate %>
+    </div>
+  </div>
+</div>
+
+<!--<div class="container" style="margin: 0 auto;">-->
+
+<!--</div>-->

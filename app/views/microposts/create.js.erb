@@ -1,0 +1,7 @@
+<% if !@microposts.empty? %>
+$("#microposts-list").empty();
+$('<%= j(render :partial => 'microposts/microposts', :object => @microposts) %>').appendTo($('#microposts-list'));
+<% else %>
+
+alert("error");
+<% end %>

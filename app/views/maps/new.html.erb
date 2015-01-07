@@ -1,0 +1,65 @@
+<div class="container">
+  <%= javascript_include_tag 'jquery.min.js' %>
+  <%= javascript_include_tag 'jquery.validate.min' %>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          新建地图
+        </div>
+        <div class="panel-body map_theme">
+          <!--<form class="form-horizontal" role="form">-->
+          <%= form_for @map, html: {id: 'map_form', class: 'form-horizontal',
+                                    role: 'form'} do |f| %>
+              <div class="form-group">
+                <%= f.label :标题, class: 'col-md-2 control-label' %>
+                <div class="col-md-8">
+                  <%= f.text_field :title, placeholder: "标题", class: 'form-control' %>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <%= f.label :描述, class: 'col-md-2 control-label' %>
+                <div class="col-md-8">
+                  <%= f.text_area :desc, placeholder: "地图描述", class: 'form-control' %>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                  <%= f.submit "创建地图", class: 'btn btn-primary' %>
+                </div>
+              </div>
+          <% end %>
+
+        </div>
+        <!--panel-body-->
+      </div>
+      <!--panel-->
+    </div>
+    <!--col-->
+  </div>
+  <!--row-->
+
+  <script type="text/javascript">
+      $('#map_form').validate({
+          rules: {
+              'map[title]': {
+                  required: true,
+                  rangelength: [1,20]
+              }
+          },
+          messages: {
+              'map[title]': {
+                  required: '给地图起个名字吧！',
+                  rangelength: jQuery.validator.format("长度介于 {0} 和 {1} 之间")
+              }
+          }
+      })
+      function register() {
+          var name = $('#name').val();
+          var email = $('#email').val();
+          var password = $('#password').val();
+      }
+  </script>
+</div>

@@ -1,0 +1,41 @@
+<!-- Nav tabs -->
+<ul class="nav nav-pills nav-justified">
+  <li><a href="#microposts" data-toggle="pill">说说</a></li>
+  <li><a href="#maps" data-toggle="pill">地图</a></li>
+</ul>
+<!--tab-content-->
+<div class="tab-content">
+  <!--tab1-->
+  <div class="tab-pane fade in active" id="microposts">
+    <div class="panel panel-primary" id="panel1" style="margin: 3px; border: 0px">
+      <!--microposts-->
+      <% if signed_in? %>
+          <%= render 'microposts/micropost_form' %>
+      <% else %>
+          <h3>您还没有登录</h3>
+      <% end %>
+      <div id="microposts-list">
+
+        <%= render "microposts/microposts" %>
+      </div>
+    </div>
+  </div>
+  <!--tab2-->
+  <div class="tab-pane fade in" id="maps">
+    <div class="panel panel-primary" id="panel2" style="margin: 3px; border: 0px">
+      <!--maps-->
+      <% if signed_in? %>
+          <%= render 'maps/map_form' %>
+      <% else %>
+          <h3>您还没有登录</h3>
+      <% end %>
+      <div id="maps-list">
+        <%= render "maps/maps" %>
+      </div>
+
+    </div>
+    <!--panel-->
+  </div>
+
+</div>
+<!--tab-content-->

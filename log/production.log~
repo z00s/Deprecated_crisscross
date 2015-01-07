@@ -1,0 +1,1750 @@
+I, [2014-05-10T10:59:42.409763 #10124]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 10:59:42 +0800
+I, [2014-05-10T10:59:42.591977 #10124]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T10:59:42.659421 #10124]  INFO -- :   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2014-05-10T10:59:42.659761 #10124]  INFO -- :   Rendered main/index.html.erb within layouts/application (4.1ms)
+I, [2014-05-10T10:59:42.664043 #10124]  INFO -- :   Rendered layouts/_shim.html.erb (0.6ms)
+I, [2014-05-10T10:59:42.681879 #10124]  INFO -- :   Rendered layouts/_header.html.erb (3.9ms)
+I, [2014-05-10T10:59:42.780628 #10124]  INFO -- :   Rendered layouts/_modal.html.erb (96.9ms)
+I, [2014-05-10T10:59:42.781243 #10124]  INFO -- : Completed 200 OK in 189ms (Views: 128.7ms | ActiveRecord: 2.5ms)
+I, [2014-05-10T10:59:42.944903 #10124]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 10:59:42 +0800
+F, [2014-05-10T10:59:42.949416 #10124] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T10:59:42.951058 #10124]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 10:59:42 +0800
+F, [2014-05-10T10:59:42.955205 #10124] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T10:59:42.956661 #10124]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 10:59:42 +0800
+F, [2014-05-10T10:59:42.961009 #10124] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T11:00:23.233538 #10155]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:00:23 +0800
+I, [2014-05-10T11:00:23.301492 #10155]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:00:23.353320 #10155]  INFO -- :   Rendered layouts/_footer.html.erb (0.6ms)
+I, [2014-05-10T11:00:23.353570 #10155]  INFO -- :   Rendered main/index.html.erb within layouts/application (4.1ms)
+I, [2014-05-10T11:00:23.356714 #10155]  INFO -- :   Rendered layouts/_shim.html.erb (0.4ms)
+I, [2014-05-10T11:00:23.361408 #10155]  INFO -- :   Rendered layouts/_header.html.erb (3.3ms)
+I, [2014-05-10T11:00:23.412763 #10155]  INFO -- :   Rendered layouts/_modal.html.erb (50.1ms)
+I, [2014-05-10T11:00:23.413297 #10155]  INFO -- : Completed 200 OK in 112ms (Views: 66.2ms | ActiveRecord: 2.0ms)
+I, [2014-05-10T11:00:23.586103 #10155]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:00:23 +0800
+F, [2014-05-10T11:00:23.592074 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:00:23.597205 #10155]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:00:23 +0800
+F, [2014-05-10T11:00:23.599449 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:00:23.600707 #10155]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:00:23 +0800
+F, [2014-05-10T11:00:23.603827 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:02:22.468317 #10155]  INFO -- : Started GET "/register" for 127.0.0.1 at 2014-05-10 11:02:22 +0800
+I, [2014-05-10T11:02:22.471499 #10155]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-05-10T11:02:22.565244 #10155]  INFO -- :   Rendered users/new.html.erb within layouts/application (59.3ms)
+I, [2014-05-10T11:02:22.567745 #10155]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-05-10T11:02:22.572973 #10155]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-05-10T11:02:22.577231 #10155]  INFO -- :   Rendered layouts/_modal.html.erb (2.9ms)
+I, [2014-05-10T11:02:22.577744 #10155]  INFO -- : Completed 200 OK in 106ms (Views: 74.1ms | ActiveRecord: 29.1ms)
+I, [2014-05-10T11:02:22.611339 #10155]  INFO -- : Started GET "/javascripts/jquery.min.js" for 127.0.0.1 at 2014-05-10 11:02:22 +0800
+F, [2014-05-10T11:02:22.615250 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery.min.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:02:22.616887 #10155]  INFO -- : Started GET "/javascripts/jquery.validate.min.js" for 127.0.0.1 at 2014-05-10 11:02:22 +0800
+F, [2014-05-10T11:02:22.620354 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery.validate.min.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:02:24.603914 #10155]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:02:24 +0800
+I, [2014-05-10T11:02:24.607918 #10155]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:02:24.617853 #10155]  INFO -- :   Rendered layouts/_footer.html.erb (0.8ms)
+I, [2014-05-10T11:02:24.618218 #10155]  INFO -- :   Rendered main/index.html.erb within layouts/application (5.1ms)
+I, [2014-05-10T11:02:24.619468 #10155]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:02:24.622122 #10155]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-05-10T11:02:24.624398 #10155]  INFO -- :   Rendered layouts/_modal.html.erb (1.9ms)
+I, [2014-05-10T11:02:24.624940 #10155]  INFO -- : Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T11:02:24.646284 #10155]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:02:24 +0800
+F, [2014-05-10T11:02:24.649804 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:02:24.656665 #10155]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:02:24 +0800
+F, [2014-05-10T11:02:24.659133 #10155] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:40:10.876484 #10717]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:40:10 +0800
+I, [2014-05-10T11:40:11.153538 #10717]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:40:11.273782 #10717]  INFO -- :   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2014-05-10T11:40:11.274079 #10717]  INFO -- :   Rendered main/index.html.erb within layouts/application (4.1ms)
+I, [2014-05-10T11:40:11.277525 #10717]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-05-10T11:40:11.282191 #10717]  INFO -- :   Rendered layouts/_header.html.erb (3.3ms)
+I, [2014-05-10T11:40:11.336438 #10717]  INFO -- :   Rendered layouts/_modal.html.erb (52.5ms)
+I, [2014-05-10T11:40:11.337205 #10717]  INFO -- : Completed 200 OK in 183ms (Views: 70.0ms | ActiveRecord: 45.8ms)
+I, [2014-05-10T11:40:11.835779 #10717]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:40:11 +0800
+F, [2014-05-10T11:40:11.839638 #10717] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T11:40:11.868628 #10717]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:40:11 +0800
+F, [2014-05-10T11:40:11.871324 #10717] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T11:40:11.919005 #10717]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:40:11 +0800
+F, [2014-05-10T11:40:11.923177 #10717] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T11:40:51.149596 #10754]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:40:51 +0800
+I, [2014-05-10T11:40:51.262850 #10754]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:40:51.312413 #10754]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-05-10T11:40:51.312690 #10754]  INFO -- :   Rendered main/index.html.erb within layouts/application (3.4ms)
+I, [2014-05-10T11:40:51.315729 #10754]  INFO -- :   Rendered layouts/_shim.html.erb (0.4ms)
+I, [2014-05-10T11:40:51.320284 #10754]  INFO -- :   Rendered layouts/_header.html.erb (3.2ms)
+I, [2014-05-10T11:40:51.395162 #10754]  INFO -- :   Rendered layouts/_modal.html.erb (73.6ms)
+I, [2014-05-10T11:40:51.395881 #10754]  INFO -- : Completed 200 OK in 133ms (Views: 88.7ms | ActiveRecord: 2.1ms)
+I, [2014-05-10T11:40:51.550661 #10754]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:40:51 +0800
+F, [2014-05-10T11:40:51.558522 #10754] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:40:51.560843 #10754]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:40:51 +0800
+F, [2014-05-10T11:40:51.563821 #10754] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:40:51.566365 #10754]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:40:51 +0800
+F, [2014-05-10T11:40:51.569161 #10754] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:45:21.426919 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:45:21 +0800
+I, [2014-05-10T11:45:21.696018 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:45:21.779232 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-05-10T11:45:21.779502 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (3.6ms)
+I, [2014-05-10T11:45:21.782882 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-05-10T11:45:21.802924 #10955]  INFO -- :   Rendered layouts/_header.html.erb (3.5ms)
+I, [2014-05-10T11:45:21.899775 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (95.1ms)
+I, [2014-05-10T11:45:21.900490 #10955]  INFO -- : Completed 200 OK in 204ms (Views: 127.5ms | ActiveRecord: 33.1ms)
+I, [2014-05-10T11:45:22.310456 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:45:22 +0800
+F, [2014-05-10T11:45:22.313635 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:45:22.331778 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:45:22 +0800
+F, [2014-05-10T11:45:22.333945 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:45:22.335333 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:45:22 +0800
+F, [2014-05-10T11:45:22.338866 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:45:31.216639 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:45:31 +0800
+I, [2014-05-10T11:45:31.219759 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:45:31.225068 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T11:45:31.225329 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.1ms)
+I, [2014-05-10T11:45:31.226254 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:45:31.228954 #10955]  INFO -- :   Rendered layouts/_header.html.erb (1.9ms)
+I, [2014-05-10T11:45:31.233033 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (3.3ms)
+I, [2014-05-10T11:45:31.233866 #10955]  INFO -- : Completed 200 OK in 14ms (Views: 9.9ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T11:45:31.350972 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:45:31 +0800
+F, [2014-05-10T11:45:31.362099 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:45:31.364402 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:45:31 +0800
+F, [2014-05-10T11:45:31.366821 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:45:31.368626 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:45:31 +0800
+F, [2014-05-10T11:45:31.371294 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:29.582344 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:48:29 +0800
+I, [2014-05-10T11:48:29.619349 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:48:29.664323 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T11:48:29.664604 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.1ms)
+I, [2014-05-10T11:48:29.665518 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:48:29.667879 #10955]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+I, [2014-05-10T11:48:29.670567 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (2.1ms)
+I, [2014-05-10T11:48:29.671104 #10955]  INFO -- : Completed 200 OK in 51ms (Views: 7.8ms | ActiveRecord: 42.0ms)
+I, [2014-05-10T11:48:29.901957 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:48:29 +0800
+F, [2014-05-10T11:48:29.906236 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:29.921121 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:48:29 +0800
+F, [2014-05-10T11:48:29.924583 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:29.926039 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:48:29 +0800
+F, [2014-05-10T11:48:29.929011 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:36.748571 #10955]  INFO -- : Started GET "/register" for 127.0.0.1 at 2014-05-10 11:48:36 +0800
+I, [2014-05-10T11:48:36.751714 #10955]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-05-10T11:48:36.843500 #10955]  INFO -- :   Rendered users/new.html.erb within layouts/application (29.4ms)
+I, [2014-05-10T11:48:36.857842 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.7ms)
+I, [2014-05-10T11:48:36.870157 #10955]  INFO -- :   Rendered layouts/_header.html.erb (4.5ms)
+I, [2014-05-10T11:48:36.875599 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (3.2ms)
+I, [2014-05-10T11:48:36.876127 #10955]  INFO -- : Completed 200 OK in 124ms (Views: 75.6ms | ActiveRecord: 45.9ms)
+I, [2014-05-10T11:48:36.930454 #10955]  INFO -- : Started GET "/javascripts/jquery.min.js" for 127.0.0.1 at 2014-05-10 11:48:36 +0800
+F, [2014-05-10T11:48:36.935712 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery.min.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:36.937480 #10955]  INFO -- : Started GET "/javascripts/jquery.validate.min.js" for 127.0.0.1 at 2014-05-10 11:48:36 +0800
+F, [2014-05-10T11:48:36.940337 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery.validate.min.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:40.847391 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:48:40 +0800
+I, [2014-05-10T11:48:40.849212 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:48:40.957643 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2014-05-10T11:48:40.957930 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (56.9ms)
+I, [2014-05-10T11:48:40.959147 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:48:40.961782 #10955]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-05-10T11:48:40.964186 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (2.0ms)
+I, [2014-05-10T11:48:40.964643 #10955]  INFO -- : Completed 200 OK in 115ms (Views: 113.0ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T11:48:40.984792 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:48:40 +0800
+F, [2014-05-10T11:48:40.989087 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:48:40.990449 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:48:40 +0800
+F, [2014-05-10T11:48:40.992857 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:51:31.193661 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:51:31 +0800
+I, [2014-05-10T11:51:31.195343 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:51:31.264748 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T11:51:31.265022 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (0.9ms)
+I, [2014-05-10T11:51:31.265856 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:51:31.267883 #10955]  INFO -- :   Rendered layouts/_header.html.erb (1.5ms)
+I, [2014-05-10T11:51:31.269961 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (1.7ms)
+I, [2014-05-10T11:51:31.270305 #10955]  INFO -- : Completed 200 OK in 75ms (Views: 6.7ms | ActiveRecord: 66.3ms)
+I, [2014-05-10T11:51:31.407376 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:51:31 +0800
+F, [2014-05-10T11:51:31.412778 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:51:31.427981 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:51:31 +0800
+F, [2014-05-10T11:51:31.431026 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:51:31.437414 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:51:31 +0800
+F, [2014-05-10T11:51:31.441258 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:51:45.767230 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:51:45 +0800
+I, [2014-05-10T11:51:45.768943 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:51:45.772518 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T11:51:45.772819 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.0ms)
+I, [2014-05-10T11:51:45.773688 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:51:45.775938 #10955]  INFO -- :   Rendered layouts/_header.html.erb (1.7ms)
+I, [2014-05-10T11:51:45.778103 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (1.8ms)
+I, [2014-05-10T11:51:45.778510 #10955]  INFO -- : Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+I, [2014-05-10T11:51:45.895353 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:51:45 +0800
+F, [2014-05-10T11:51:45.898304 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:51:45.906940 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:51:45 +0800
+F, [2014-05-10T11:51:45.909954 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:51:45.928222 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:51:45 +0800
+F, [2014-05-10T11:51:45.931968 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:52:18.942548 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:52:18 +0800
+I, [2014-05-10T11:52:18.944525 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:52:18.948237 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T11:52:18.948567 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.2ms)
+I, [2014-05-10T11:52:18.949775 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:52:18.952821 #10955]  INFO -- :   Rendered layouts/_header.html.erb (2.2ms)
+I, [2014-05-10T11:52:18.956068 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (2.5ms)
+I, [2014-05-10T11:52:18.956615 #10955]  INFO -- : Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.4ms)
+I, [2014-05-10T11:52:19.094481 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:52:19 +0800
+F, [2014-05-10T11:52:19.100127 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:52:19.101859 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:52:19 +0800
+F, [2014-05-10T11:52:19.106135 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:52:19.108626 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:52:19 +0800
+F, [2014-05-10T11:52:19.111663 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:53:58.726526 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 11:53:58 +0800
+I, [2014-05-10T11:53:58.728466 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T11:53:58.731321 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T11:53:58.731586 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.0ms)
+I, [2014-05-10T11:53:58.732549 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T11:53:58.734667 #10955]  INFO -- :   Rendered layouts/_header.html.erb (1.6ms)
+I, [2014-05-10T11:53:58.737756 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (2.5ms)
+I, [2014-05-10T11:53:58.738410 #10955]  INFO -- : Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T11:53:58.867771 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 11:53:58 +0800
+F, [2014-05-10T11:53:58.882746 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:53:58.885528 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 11:53:58 +0800
+F, [2014-05-10T11:53:58.888719 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T11:53:58.890759 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 11:53:58 +0800
+F, [2014-05-10T11:53:58.893719 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:03:11.867730 #10955]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:03:11 +0800
+I, [2014-05-10T12:03:11.986606 #10955]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:03:12.506513 #10955]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:03:12.506906 #10955]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.4ms)
+I, [2014-05-10T12:03:12.508404 #10955]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:03:12.512204 #10955]  INFO -- :   Rendered layouts/_header.html.erb (2.9ms)
+I, [2014-05-10T12:03:12.515527 #10955]  INFO -- :   Rendered layouts/_modal.html.erb (2.6ms)
+I, [2014-05-10T12:03:12.516105 #10955]  INFO -- : Completed 200 OK in 529ms (Views: 11.0ms | ActiveRecord: 337.3ms)
+I, [2014-05-10T12:03:18.631987 #10955]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 12:03:18 +0800
+F, [2014-05-10T12:03:18.924156 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:03:19.087442 #10955]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 12:03:19 +0800
+F, [2014-05-10T12:03:19.162591 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:03:19.164073 #10955]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 12:03:19 +0800
+F, [2014-05-10T12:03:19.166424 #10955] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:03:47.548543 #11193]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:03:47 +0800
+I, [2014-05-10T12:03:48.788641 #11193]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:03:49.246686 #11193]  INFO -- :   Rendered layouts/_footer.html.erb (0.7ms)
+I, [2014-05-10T12:03:49.246991 #11193]  INFO -- :   Rendered main/index.html.erb within layouts/application (5.8ms)
+I, [2014-05-10T12:03:49.250765 #11193]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-05-10T12:03:49.273311 #11193]  INFO -- :   Rendered layouts/_header.html.erb (3.6ms)
+I, [2014-05-10T12:03:49.414111 #11193]  INFO -- :   Rendered layouts/_modal.html.erb (139.4ms)
+I, [2014-05-10T12:03:49.414631 #11193]  INFO -- : Completed 200 OK in 626ms (Views: 177.6ms | ActiveRecord: 106.9ms)
+I, [2014-05-10T12:03:50.260769 #11193]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 12:03:50 +0800
+F, [2014-05-10T12:03:50.263925 #11193] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:03:50.331864 #11193]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 12:03:50 +0800
+F, [2014-05-10T12:03:50.333885 #11193] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:03:50.336490 #11193]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 12:03:50 +0800
+F, [2014-05-10T12:03:50.338171 #11193] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:06:13.467989 #11193]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:06:13 +0800
+I, [2014-05-10T12:06:13.653149 #11193]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:06:13.716438 #11193]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:06:13.716749 #11193]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.2ms)
+I, [2014-05-10T12:06:13.717682 #11193]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:06:13.719856 #11193]  INFO -- :   Rendered layouts/_header.html.erb (1.6ms)
+I, [2014-05-10T12:06:13.722423 #11193]  INFO -- :   Rendered layouts/_modal.html.erb (2.1ms)
+I, [2014-05-10T12:06:13.722853 #11193]  INFO -- : Completed 200 OK in 69ms (Views: 7.8ms | ActiveRecord: 9.9ms)
+I, [2014-05-10T12:06:14.971346 #11193]  INFO -- : Started GET "/stylesheets/sticky-footer-navbar.css" for 127.0.0.1 at 2014-05-10 12:06:14 +0800
+F, [2014-05-10T12:06:14.974429 #11193] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/sticky-footer-navbar.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:06:15.028010 #11193]  INFO -- : Started GET "/stylesheets/map.css" for 127.0.0.1 at 2014-05-10 12:06:15 +0800
+F, [2014-05-10T12:06:15.031667 #11193] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/map.css"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:06:15.033273 #11193]  INFO -- : Started GET "/javascripts/map-index.js" for 127.0.0.1 at 2014-05-10 12:06:15 +0800
+F, [2014-05-10T12:06:15.036063 #11193] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/map-index.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/z00s/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+I, [2014-05-10T12:06:46.458088 #11294]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:06:46 +0800
+I, [2014-05-10T12:06:47.445770 #11294]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:06:47.572240 #11294]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-05-10T12:06:47.572518 #11294]  INFO -- :   Rendered main/index.html.erb within layouts/application (3.8ms)
+I, [2014-05-10T12:06:47.575952 #11294]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-05-10T12:06:47.597332 #11294]  INFO -- :   Rendered layouts/_header.html.erb (3.7ms)
+I, [2014-05-10T12:06:47.693259 #11294]  INFO -- :   Rendered layouts/_modal.html.erb (94.2ms)
+I, [2014-05-10T12:06:47.693804 #11294]  INFO -- : Completed 200 OK in 248ms (Views: 137.9ms | ActiveRecord: 62.8ms)
+I, [2014-05-10T12:07:03.557727 #11294]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:07:03 +0800
+I, [2014-05-10T12:07:03.560750 #11294]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:07:03.564314 #11294]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:07:03.564551 #11294]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.1ms)
+I, [2014-05-10T12:07:03.565490 #11294]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:07:03.567906 #11294]  INFO -- :   Rendered layouts/_header.html.erb (1.8ms)
+I, [2014-05-10T12:07:03.570295 #11294]  INFO -- :   Rendered layouts/_modal.html.erb (1.9ms)
+I, [2014-05-10T12:07:03.570827 #11294]  INFO -- : Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T12:07:13.049829 #11294]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:07:13 +0800
+I, [2014-05-10T12:07:13.051440 #11294]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:07:13.078402 #11294]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-05-10T12:07:13.078706 #11294]  INFO -- :   Rendered main/index.html.erb within layouts/application (4.1ms)
+I, [2014-05-10T12:07:13.081140 #11294]  INFO -- :   Rendered layouts/_shim.html.erb (0.5ms)
+I, [2014-05-10T12:07:13.141479 #11294]  INFO -- :   Rendered layouts/_header.html.erb (3.5ms)
+I, [2014-05-10T12:07:13.146028 #11294]  INFO -- :   Rendered layouts/_modal.html.erb (3.1ms)
+I, [2014-05-10T12:07:13.146511 #11294]  INFO -- : Completed 200 OK in 95ms (Views: 93.0ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T12:08:50.072178 #11384]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:08:50 +0800
+I, [2014-05-10T12:08:50.526919 #11384]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:08:50.619503 #11384]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-05-10T12:08:50.619756 #11384]  INFO -- :   Rendered main/index.html.erb within layouts/application (4.4ms)
+I, [2014-05-10T12:08:50.622958 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.4ms)
+I, [2014-05-10T12:08:50.636250 #11384]  INFO -- :   Rendered layouts/_header.html.erb (4.0ms)
+I, [2014-05-10T12:08:50.741775 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (104.1ms)
+I, [2014-05-10T12:08:50.742332 #11384]  INFO -- : Completed 200 OK in 215ms (Views: 148.6ms | ActiveRecord: 13.5ms)
+I, [2014-05-10T12:09:03.706253 #11384]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:09:03 +0800
+I, [2014-05-10T12:09:03.709313 #11384]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:09:03.715564 #11384]  INFO -- :   Rendered layouts/_footer.html.erb (0.5ms)
+I, [2014-05-10T12:09:03.715787 #11384]  INFO -- :   Rendered main/index.html.erb within layouts/application (3.0ms)
+I, [2014-05-10T12:09:03.718185 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.4ms)
+I, [2014-05-10T12:09:03.722713 #11384]  INFO -- :   Rendered layouts/_header.html.erb (3.1ms)
+I, [2014-05-10T12:09:03.726641 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (2.8ms)
+I, [2014-05-10T12:09:03.727056 #11384]  INFO -- : Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T12:09:05.198607 #11384]  INFO -- : Started GET "/register" for 127.0.0.1 at 2014-05-10 12:09:05 +0800
+I, [2014-05-10T12:09:05.202222 #11384]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-05-10T12:09:05.321279 #11384]  INFO -- :   Rendered users/new.html.erb within layouts/application (30.7ms)
+I, [2014-05-10T12:09:05.322414 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:09:05.325035 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.1ms)
+I, [2014-05-10T12:09:05.326815 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.4ms)
+I, [2014-05-10T12:09:05.327215 #11384]  INFO -- : Completed 200 OK in 125ms (Views: 59.4ms | ActiveRecord: 62.0ms)
+I, [2014-05-10T12:09:05.349165 #11384]  INFO -- : Started GET "/javascripts/jquery.min.js" for 127.0.0.1 at 2014-05-10 12:09:05 +0800
+F, [2014-05-10T12:09:05.352338 #11384] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery.min.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T12:09:15.928700 #11384]  INFO -- : Started POST "/sessions" for 127.0.0.1 at 2014-05-10 12:09:15 +0800
+I, [2014-05-10T12:09:15.931754 #11384]  INFO -- : Processing by SessionsController#create as HTML
+I, [2014-05-10T12:09:15.963717 #11384]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4fF14EWBSs057+BH3qtXXE7v0cSuXinVbApgxxMM/ik=", "session"=>{"email"=>"z00s@163.com", "password"=>"[FILTERED]"}, "commit"=>"登录"}
+I, [2014-05-10T12:09:16.149694 #11384]  INFO -- :   Rendered sessions/new.html.erb within layouts/application (3.1ms)
+I, [2014-05-10T12:09:16.150710 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:09:16.153256 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-05-10T12:09:16.155028 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.4ms)
+I, [2014-05-10T12:09:16.155422 #11384]  INFO -- : Completed 200 OK in 191ms (Views: 49.3ms | ActiveRecord: 139.2ms)
+I, [2014-05-10T12:09:23.439835 #11384]  INFO -- : Started GET "/register" for 127.0.0.1 at 2014-05-10 12:09:23 +0800
+I, [2014-05-10T12:09:23.443685 #11384]  INFO -- : Processing by UsersController#new as HTML
+I, [2014-05-10T12:09:23.453903 #11384]  INFO -- :   Rendered users/new.html.erb within layouts/application (6.6ms)
+I, [2014-05-10T12:09:23.455001 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:09:23.458329 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.6ms)
+I, [2014-05-10T12:09:23.461544 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (2.6ms)
+I, [2014-05-10T12:09:23.462233 #11384]  INFO -- : Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T12:09:23.578108 #11384]  INFO -- : Started GET "/javascripts/jquery.min.js" for 127.0.0.1 at 2014-05-10 12:09:23 +0800
+F, [2014-05-10T12:09:23.582710 #11384] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery.min.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:572:in `process_client'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:666:in `worker_loop'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:521:in `spawn_missing_workers'
+  unicorn (4.8.2) lib/unicorn/http_server.rb:140:in `start'
+  unicorn (4.8.2) bin/unicorn:126:in `<top (required)>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+  /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+
+
+I, [2014-05-10T12:09:36.633897 #11384]  INFO -- : Started GET "/users/check_email?user%5Bemail%5D=admin%40163.com" for 127.0.0.1 at 2014-05-10 12:09:36 +0800
+I, [2014-05-10T12:09:36.636183 #11384]  INFO -- : Processing by UsersController#check_email as JSON
+I, [2014-05-10T12:09:36.636322 #11384]  INFO -- :   Parameters: {"user"=>{"email"=>"admin@163.com"}}
+I, [2014-05-10T12:09:36.728215 #11384]  INFO -- : Completed 200 OK in 92ms (Views: 0.3ms | ActiveRecord: 18.2ms)
+I, [2014-05-10T12:09:41.875719 #11384]  INFO -- : Started POST "/users" for 127.0.0.1 at 2014-05-10 12:09:41 +0800
+I, [2014-05-10T12:09:41.877787 #11384]  INFO -- : Processing by UsersController#create as HTML
+I, [2014-05-10T12:09:41.877944 #11384]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4fF14EWBSs057+BH3qtXXE7v0cSuXinVbApgxxMM/ik=", "user"=>{"name"=>"admin", "email"=>"admin@163.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"注册"}
+I, [2014-05-10T12:09:42.377194 #11384]  INFO -- : Redirected to http://127.0.0.1:8080/users/1
+I, [2014-05-10T12:09:42.377592 #11384]  INFO -- : Completed 302 Found in 499ms (ActiveRecord: 212.9ms)
+I, [2014-05-10T12:09:42.385344 #11384]  INFO -- : Started GET "/users/1" for 127.0.0.1 at 2014-05-10 12:09:42 +0800
+I, [2014-05-10T12:09:42.387095 #11384]  INFO -- : Processing by UsersController#show as HTML
+I, [2014-05-10T12:09:42.387194 #11384]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-05-10T12:09:42.516338 #11384]  INFO -- :   Rendered users/_follow_form.html.erb (0.9ms)
+I, [2014-05-10T12:09:42.574476 #11384]  INFO -- :   Rendered users/_status.html.erb (56.6ms)
+I, [2014-05-10T12:09:42.609443 #11384]  INFO -- :   Rendered microposts/_micropost_form.html.erb (6.6ms)
+I, [2014-05-10T12:09:42.630949 #11384]  INFO -- :   Rendered maps/_map_form.html.erb (4.9ms)
+I, [2014-05-10T12:09:42.635754 #11384]  INFO -- :   Rendered users/_pagination.erb (40.1ms)
+I, [2014-05-10T12:09:42.636028 #11384]  INFO -- :   Rendered users/show.html.erb within layouts/application (134.2ms)
+I, [2014-05-10T12:09:42.637329 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:09:42.639127 #11384]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-05-10T12:09:42.641850 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (2.3ms)
+I, [2014-05-10T12:09:42.642301 #11384]  INFO -- : Completed 200 OK in 255ms (Views: 153.8ms | ActiveRecord: 9.3ms)
+I, [2014-05-10T12:09:47.925701 #11384]  INFO -- : Started GET "/" for 127.0.0.1 at 2014-05-10 12:09:47 +0800
+I, [2014-05-10T12:09:47.928218 #11384]  INFO -- : Processing by MainController#index as HTML
+I, [2014-05-10T12:09:47.933579 #11384]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:09:47.933914 #11384]  INFO -- :   Rendered main/index.html.erb within layouts/application (1.4ms)
+I, [2014-05-10T12:09:47.935219 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:09:47.938020 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.0ms)
+I, [2014-05-10T12:09:47.941286 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (2.6ms)
+I, [2014-05-10T12:09:47.941862 #11384]  INFO -- : Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T12:09:49.494802 #11384]  INFO -- : Started GET "/users/1" for 127.0.0.1 at 2014-05-10 12:09:49 +0800
+I, [2014-05-10T12:09:49.497116 #11384]  INFO -- : Processing by UsersController#show as HTML
+I, [2014-05-10T12:09:49.497307 #11384]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-05-10T12:09:49.516553 #11384]  INFO -- :   Rendered users/_follow_form.html.erb (1.5ms)
+I, [2014-05-10T12:09:49.526624 #11384]  INFO -- :   Rendered users/_status.html.erb (8.1ms)
+I, [2014-05-10T12:09:49.535088 #11384]  INFO -- :   Rendered microposts/_micropost_form.html.erb (2.8ms)
+I, [2014-05-10T12:09:49.542326 #11384]  INFO -- :   Rendered maps/_map_form.html.erb (3.9ms)
+I, [2014-05-10T12:09:49.544258 #11384]  INFO -- :   Rendered users/_pagination.erb (15.7ms)
+I, [2014-05-10T12:09:49.544437 #11384]  INFO -- :   Rendered users/show.html.erb within layouts/application (34.1ms)
+I, [2014-05-10T12:09:49.545548 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:09:49.547256 #11384]  INFO -- :   Rendered layouts/_header.html.erb (1.2ms)
+I, [2014-05-10T12:09:49.549044 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.5ms)
+I, [2014-05-10T12:09:49.549433 #11384]  INFO -- : Completed 200 OK in 52ms (Views: 40.4ms | ActiveRecord: 1.4ms)
+I, [2014-05-10T12:10:00.304528 #11384]  INFO -- : Started POST "/maps" for 127.0.0.1 at 2014-05-10 12:10:00 +0800
+I, [2014-05-10T12:10:00.309047 #11384]  INFO -- : Processing by MapsController#create as HTML
+I, [2014-05-10T12:10:00.309276 #11384]  INFO -- :   Parameters: {"utf8"=>"✓", "authenticity_token"=>"4fF14EWBSs057+BH3qtXXE7v0cSuXinVbApgxxMM/ik=", "map"=>{"title"=>"测试", "desc"=>"测试"}, "commit"=>"创建地图"}
+I, [2014-05-10T12:10:00.468335 #11384]  INFO -- : Redirected to http://127.0.0.1:8080/maps/1
+I, [2014-05-10T12:10:00.468790 #11384]  INFO -- : Completed 302 Found in 159ms (ActiveRecord: 148.2ms)
+I, [2014-05-10T12:10:00.475702 #11384]  INFO -- : Started GET "/maps/1" for 127.0.0.1 at 2014-05-10 12:10:00 +0800
+I, [2014-05-10T12:10:00.478771 #11384]  INFO -- : Processing by MapsController#show as HTML
+I, [2014-05-10T12:10:00.478916 #11384]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-05-10T12:10:00.544900 #11384]  INFO -- :   Rendered users/_status.html.erb (4.1ms)
+I, [2014-05-10T12:10:00.545750 #11384]  INFO -- :   Rendered users/_current_user_nav.html.erb (9.1ms)
+I, [2014-05-10T12:10:00.589848 #11384]  INFO -- :   Rendered maps/show.html.erb within layouts/application (67.3ms)
+I, [2014-05-10T12:10:00.591218 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:10:00.593017 #11384]  INFO -- :   Rendered layouts/_header.html.erb (1.3ms)
+I, [2014-05-10T12:10:00.595203 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.8ms)
+I, [2014-05-10T12:10:00.595645 #11384]  INFO -- : Completed 200 OK in 117ms (Views: 106.5ms | ActiveRecord: 7.1ms)
+I, [2014-05-10T12:10:00.891123 #11384]  INFO -- : Started POST "/maps/find_markers" for 127.0.0.1 at 2014-05-10 12:10:00 +0800
+I, [2014-05-10T12:10:00.893284 #11384]  INFO -- : Processing by MapsController#find_markers as JSON
+I, [2014-05-10T12:10:00.893468 #11384]  INFO -- :   Parameters: {"map"=>{"map_id"=>"1"}}
+I, [2014-05-10T12:10:00.899942 #11384]  INFO -- :   Rendered text template (0.0ms)
+I, [2014-05-10T12:10:00.900388 #11384]  INFO -- : Completed 200 OK in 7ms (Views: 0.8ms | ActiveRecord: 1.9ms)
+I, [2014-05-10T12:10:07.689798 #11384]  INFO -- : Started GET "/maps/1/edit" for 127.0.0.1 at 2014-05-10 12:10:07 +0800
+I, [2014-05-10T12:10:07.692520 #11384]  INFO -- : Processing by MapsController#edit as HTML
+I, [2014-05-10T12:10:07.692677 #11384]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-05-10T12:10:07.725675 #11384]  INFO -- :   Rendered maps/_tools.html.erb (1.2ms)
+I, [2014-05-10T12:10:07.726153 #11384]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:10:07.726424 #11384]  INFO -- :   Rendered maps/edit.html.erb within layouts/application (9.0ms)
+I, [2014-05-10T12:10:07.727462 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:10:07.730853 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.9ms)
+I, [2014-05-10T12:10:07.732975 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.8ms)
+I, [2014-05-10T12:10:07.733367 #11384]  INFO -- : Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.5ms)
+I, [2014-05-10T12:10:07.801714 #11384]  INFO -- : Started POST "/maps/find_markers" for 127.0.0.1 at 2014-05-10 12:10:07 +0800
+I, [2014-05-10T12:10:07.803689 #11384]  INFO -- : Processing by MapsController#find_markers as JSON
+I, [2014-05-10T12:10:07.803808 #11384]  INFO -- :   Parameters: {"map"=>{"map_id"=>"1"}}
+I, [2014-05-10T12:10:07.806313 #11384]  INFO -- :   Rendered text template (0.0ms)
+I, [2014-05-10T12:10:07.806597 #11384]  INFO -- : Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+I, [2014-05-10T12:10:26.160829 #11384]  INFO -- : Started GET "/maps/1/edit" for 127.0.0.1 at 2014-05-10 12:10:26 +0800
+I, [2014-05-10T12:10:26.162865 #11384]  INFO -- : Processing by MapsController#edit as HTML
+I, [2014-05-10T12:10:26.163063 #11384]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-05-10T12:10:26.172600 #11384]  INFO -- :   Rendered maps/_tools.html.erb (1.0ms)
+I, [2014-05-10T12:10:26.173063 #11384]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:10:26.173326 #11384]  INFO -- :   Rendered maps/edit.html.erb within layouts/application (5.2ms)
+I, [2014-05-10T12:10:26.174699 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:10:26.178084 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.9ms)
+I, [2014-05-10T12:10:26.180179 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.7ms)
+I, [2014-05-10T12:10:26.180589 #11384]  INFO -- : Completed 200 OK in 17ms (Views: 13.7ms | ActiveRecord: 0.5ms)
+I, [2014-05-10T12:10:27.102903 #11384]  INFO -- : Started POST "/maps/find_markers" for 127.0.0.1 at 2014-05-10 12:10:27 +0800
+I, [2014-05-10T12:10:27.105633 #11384]  INFO -- : Processing by MapsController#find_markers as JSON
+I, [2014-05-10T12:10:27.105833 #11384]  INFO -- :   Parameters: {"map"=>{"map_id"=>"1"}}
+I, [2014-05-10T12:10:27.108776 #11384]  INFO -- :   Rendered text template (0.0ms)
+I, [2014-05-10T12:10:27.109107 #11384]  INFO -- : Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+I, [2014-05-10T12:10:27.111033 #11384]  INFO -- : Started GET "/map/show?map_id=1" for 127.0.0.1 at 2014-05-10 12:10:27 +0800
+I, [2014-05-10T12:10:27.113065 #11384]  INFO -- : Processing by MapsController#current_map as JSON
+I, [2014-05-10T12:10:27.113228 #11384]  INFO -- :   Parameters: {"map_id"=>"1"}
+I, [2014-05-10T12:10:27.130330 #11384]  INFO -- :   Rendered text template (0.0ms)
+I, [2014-05-10T12:10:27.130646 #11384]  INFO -- : Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 13.5ms)
+I, [2014-05-10T12:18:43.437949 #11384]  INFO -- : Started GET "/maps/1/edit" for 127.0.0.1 at 2014-05-10 12:18:43 +0800
+I, [2014-05-10T12:18:43.439266 #11384]  INFO -- : Processing by MapsController#edit as HTML
+I, [2014-05-10T12:18:43.439363 #11384]  INFO -- :   Parameters: {"id"=>"1"}
+I, [2014-05-10T12:18:43.467306 #11384]  INFO -- :   Rendered maps/_tools.html.erb (0.1ms)
+I, [2014-05-10T12:18:43.467641 #11384]  INFO -- :   Rendered layouts/_footer.html.erb (0.1ms)
+I, [2014-05-10T12:18:43.467845 #11384]  INFO -- :   Rendered maps/edit.html.erb within layouts/application (1.2ms)
+I, [2014-05-10T12:18:43.468616 #11384]  INFO -- :   Rendered layouts/_shim.html.erb (0.1ms)
+I, [2014-05-10T12:18:43.471551 #11384]  INFO -- :   Rendered layouts/_header.html.erb (2.4ms)
+I, [2014-05-10T12:18:43.473415 #11384]  INFO -- :   Rendered layouts/_modal.html.erb (1.5ms)
+I, [2014-05-10T12:18:43.473722 #11384]  INFO -- : Completed 200 OK in 34ms (Views: 7.3ms | ActiveRecord: 24.8ms)
+I, [2014-05-10T12:18:44.071669 #11384]  INFO -- : Started POST "/maps/find_markers" for 127.0.0.1 at 2014-05-10 12:18:44 +0800
+I, [2014-05-10T12:18:44.073203 #11384]  INFO -- : Processing by MapsController#find_markers as JSON
+I, [2014-05-10T12:18:44.073344 #11384]  INFO -- :   Parameters: {"map"=>{"map_id"=>"1"}}
+I, [2014-05-10T12:18:44.075771 #11384]  INFO -- :   Rendered text template (0.0ms)
+I, [2014-05-10T12:18:44.076139 #11384]  INFO -- : Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+I, [2014-05-10T12:18:44.080514 #11384]  INFO -- : Started GET "/map/show?map_id=1" for 127.0.0.1 at 2014-05-10 12:18:44 +0800
+I, [2014-05-10T12:18:44.082083 #11384]  INFO -- : Processing by MapsController#current_map as JSON
+I, [2014-05-10T12:18:44.082217 #11384]  INFO -- :   Parameters: {"map_id"=>"1"}
+I, [2014-05-10T12:18:44.085202 #11384]  INFO -- :   Rendered text template (0.0ms)
+I, [2014-05-10T12:18:44.085485 #11384]  INFO -- : Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms)

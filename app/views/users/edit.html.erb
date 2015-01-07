@@ -1,0 +1,148 @@
+<%= javascript_include_tag 'jquery.datetimepicker' %>
+<%= stylesheet_link_tag 'jquery.datetimepicker' %>
+
+<div class="row">
+  <div class="col-md-2" style="padding: 20px">
+    <%= render 'users/current_user_nav' %>
+  </div>
+  <div class="col-md-10" style="height: 100%">
+    <!--row-->
+    <div class="row">
+      <div class="">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            个人信息完善
+          </div>
+          <div class="panel-body map_theme">
+            <!--<form class="form-horizontal" role="form">-->
+            <%= form_for @user, html: {id: 'user_form', class: 'form-horizontal',
+                                       role: 'form',autocomplete: "off"} do |f| %>
+                <div class="form-group">
+                  <%= f.label :用户名, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.text_field :name, class: 'form-control' %>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <%= f.label :性别, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.select(:sex, options_for_select({"男" => "男", "女" => "女"}, @user.sex), {}, {class: "form-control"}) %>
+
+                  </div>
+                </div>
+                <div class="form-group">
+                  <%= f.label :生日, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.text_field :birth, id: 'datetimepicker', class: 'form-control datetimepicker' %>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <%= f.label :电话, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.text_field :phone, class: 'form-control' %>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <%= f.label :地址, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.text_field :address, class: 'form-control' %>
+                  </div>
+                </div>
+                <div class="form-group">
+
+                  <div class="col-md-8 col-md-offset-2">
+                    <%= gravatar_for @user %>
+                    <a href="http://gravatar.com/emails">更改头像</a>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <%= f.label :密码, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.password_field :password, class: 'form-control' %>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <%= f.label :密码确认, class: 'col-md-2 control-label' %>
+                  <div class="col-md-8">
+                    <%= f.password_field :password_confirmation, class: 'form-control' %>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-offset-2 col-md-10">
+                    <%= f.submit "保存更改", class: 'btn btn-primary' %>
+                  </div>
+                </div>
+                <div>
+                  <!--<input id="datetimepicker" class="datetimepicker" type="text">-->
+                </div>
+            <% end %>
+
+          </div>
+          <!--panel-body-->
+        </div>
+        <!--panel-->
+      </div>
+      <!--col-->
+    </div>
+    <!--row-->
+  </div>
+</div>
+
+
+<script type="text/javascript">
+
+    $('#datetimepicker').datetimepicker({
+        yearOffset:0,
+        lang:'ch',
+        timepicker:false,
+        format:'Y-m-d',
+        formatDate:'Y-m-d'
+//        minDate:'-1970-01-02', // yesterday is minimum date
+//        maxDate:'+1970-01-02' // and tommorow is maximum date calendar"
+    });
+
+    $('#user_form').validate({
+        rules: {
+            'user[name]': {
+                required: true,
+                rangelength: [4, 20]
+            },
+            'user[email]': {
+                required: true,
+                email: true,
+//                format: /^([^@\s]+)@((?:[a-z0-9-]+\.)+[a-z]{2,})$/i,
+                remote: '/users/check_email'
+
+            },
+            'user[password]': {
+                required: true,
+                rangelength: [6, 20]
+            }
+        },
+        messages: {
+            'user[name]': {
+                required: '请输入用户名！',
+                rangelength: jQuery.validator.format("长度介于 {0} 和 {1} 之间")
+            },
+            'user[email]': {
+                required: '请输入邮箱！',
+                email: '请输入正确的邮箱格式！',
+//                format: '请输入正确的邮箱格式',
+                remote: '用户已经注册'
+            },
+            'user[password]': {
+                required: '请输入密码！',
+                rangelength: jQuery.validator.format("长度介于 {0} 和 {1} 之间")
+            }
+        }
+    })
+    function register() {
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var password = $('#password').val();
+    }
+</script>

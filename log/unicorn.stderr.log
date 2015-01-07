@@ -1,0 +1,74 @@
+I, [2014-05-10T12:59:28.998602 #3289]  INFO -- : Refreshing Gem list
+I, [2014-05-10T12:59:35.307878 #3289]  INFO -- : listening on addr=0.0.0.0:8080 fd=9
+I, [2014-05-10T12:59:35.308156 #3289]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-05-10T12:59:35.309391 #3289]  INFO -- : master process ready
+I, [2014-05-10T12:59:35.310538 #3293]  INFO -- : worker=0 spawned pid=3293
+I, [2014-05-10T12:59:35.324831 #3293]  INFO -- : worker=0 ready
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+I, [2014-05-10T16:13:53.694098 #3289]  INFO -- : reaped #<Process::Status: pid 3293 exit 0> worker=0
+I, [2014-05-10T16:13:55.217282 #3289]  INFO -- : master complete
+I, [2014-05-13T19:07:04.954373 #20371]  INFO -- : Refreshing Gem list
+I, [2014-05-13T19:07:11.542748 #20371]  INFO -- : listening on addr=0.0.0.0:8080 fd=9
+I, [2014-05-13T19:07:11.543121 #20371]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-05-13T19:07:11.544873 #20371]  INFO -- : master process ready
+I, [2014-05-13T19:07:11.545667 #20375]  INFO -- : worker=0 spawned pid=20375
+I, [2014-05-13T19:07:11.552884 #20375]  INFO -- : worker=0 ready
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+D, [2014-05-13T19:31:52.524930 #20371] DEBUG -- : waiting 16.0s after suspend/hibernation
+I, [2014-05-13T19:50:07.227521 #20371]  INFO -- : reaped #<Process::Status: pid 20375 exit 0> worker=0
+I, [2014-05-13T19:50:07.241750 #20371]  INFO -- : master complete
+I, [2014-05-13T19:50:14.877571 #22065]  INFO -- : Refreshing Gem list
+I, [2014-05-13T19:50:20.494547 #22065]  INFO -- : listening on addr=0.0.0.0:8080 fd=9
+I, [2014-05-13T19:50:20.494941 #22065]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-05-13T19:50:20.496009 #22065]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-05-13T19:50:20.497663 #22065]  INFO -- : master process ready
+I, [2014-05-13T19:50:20.498367 #22068]  INFO -- : worker=0 spawned pid=22068
+I, [2014-05-13T19:50:20.556826 #22068]  INFO -- : worker=0 ready
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+I, [2014-05-13T20:06:02.913090 #22065]  INFO -- : reaped #<Process::Status: pid 22068 exit 0> worker=0
+I, [2014-05-13T20:06:02.927093 #22065]  INFO -- : master complete
+I, [2014-05-13T20:06:08.785239 #22379]  INFO -- : Refreshing Gem list
+I, [2014-05-13T20:06:14.735082 #22379]  INFO -- : listening on addr=0.0.0.0:8080 fd=9
+I, [2014-05-13T20:06:14.735415 #22379]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-05-13T20:06:14.735584 #22379]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-05-13T20:06:14.737094 #22379]  INFO -- : master process ready
+I, [2014-05-13T20:06:14.737783 #22383]  INFO -- : worker=0 spawned pid=22383
+I, [2014-05-13T20:06:14.745881 #22383]  INFO -- : worker=0 ready
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+/home/z00s/.rvm/gems/ruby-1.9.3-p484/gems/unicorn-4.8.2/lib/unicorn/http_server.rb:206:in `pid=': Already running on PID:22379 (or pid=/tmp/unicorn.pid is stale) (ArgumentError)
+	from /home/z00s/.rvm/gems/ruby-1.9.3-p484/gems/unicorn-4.8.2/lib/unicorn/http_server.rb:135:in `start'
+	from /home/z00s/.rvm/gems/ruby-1.9.3-p484/gems/unicorn-4.8.2/bin/unicorn:126:in `<top (required)>'
+	from /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `load'
+	from /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn:23:in `<main>'
+	from /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `eval'
+	from /home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-05-13T20:07:29.574063 #22379]  INFO -- : reaped #<Process::Status: pid 22383 exit 0> worker=0
+I, [2014-05-13T20:07:29.574327 #22379]  INFO -- : master complete
+I, [2014-05-13T20:07:33.477651 #22426]  INFO -- : Refreshing Gem list
+I, [2014-05-13T20:07:38.034444 #22426]  INFO -- : listening on addr=0.0.0.0:8080 fd=9
+I, [2014-05-13T20:07:38.034770 #22426]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-05-13T20:07:38.034945 #22426]  INFO -- : listening on addr=/tmp/unicorn.sock fd=10
+I, [2014-05-13T20:07:38.036568 #22426]  INFO -- : master process ready
+I, [2014-05-13T20:07:38.037396 #22429]  INFO -- : worker=0 spawned pid=22429
+I, [2014-05-13T20:07:38.045553 #22429]  INFO -- : worker=0 ready
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+I, [2014-05-13T20:08:58.646614 #22457]  INFO -- : executing ["/home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn", "-c", "/home/z00s/code/CrissCross/config/unicorn.rb", "-E", "production", "-D", {9=>#<Kgio::TCPServer:fd 9>, 10=>#<Kgio::UNIXServer:/tmp/unicorn.sock>}] (in /home/z00s/code/CrissCross)
+I, [2014-05-13T20:08:59.166289 #22457]  INFO -- : inherited addr=0.0.0.0:8080 fd=9
+I, [2014-05-13T20:08:59.166510 #22457]  INFO -- : inherited addr=/tmp/unicorn.sock fd=10
+I, [2014-05-13T20:08:59.166889 #22457]  INFO -- : Refreshing Gem list
+I, [2014-05-13T20:09:02.615488 #22457]  INFO -- : master process ready
+I, [2014-05-13T20:09:02.616294 #22467]  INFO -- : worker=0 spawned pid=22467
+I, [2014-05-13T20:09:02.624609 #22467]  INFO -- : worker=0 ready
+I, [2014-05-13T20:09:02.714644 #22426]  INFO -- : reaped #<Process::Status: pid 22429 exit 0> worker=0
+I, [2014-05-13T20:09:02.714784 #22426]  INFO -- : master complete
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+I, [2014-05-13T20:13:36.493991 #22598]  INFO -- : executing ["/home/z00s/.rvm/gems/ruby-1.9.3-p484/bin/unicorn", "-c", "/home/z00s/code/CrissCross/config/unicorn.rb", "-E", "production", "-D", {9=>#<Kgio::TCPServer:fd 9>, 10=>#<Kgio::UNIXServer:fd 10>}] (in /home/z00s/code/CrissCross)
+I, [2014-05-13T20:13:37.021699 #22598]  INFO -- : inherited addr=0.0.0.0:8080 fd=9
+I, [2014-05-13T20:13:37.022010 #22598]  INFO -- : inherited addr=/tmp/unicorn.sock fd=10
+I, [2014-05-13T20:13:37.022416 #22598]  INFO -- : Refreshing Gem list
+I, [2014-05-13T20:13:40.747476 #22598]  INFO -- : master process ready
+I, [2014-05-13T20:13:40.748739 #22606]  INFO -- : worker=0 spawned pid=22606
+I, [2014-05-13T20:13:40.755307 #22606]  INFO -- : worker=0 ready
+I, [2014-05-13T20:13:40.846533 #22457]  INFO -- : reaped #<Process::Status: pid 22467 exit 0> worker=0
+I, [2014-05-13T20:13:40.846688 #22457]  INFO -- : master complete
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.

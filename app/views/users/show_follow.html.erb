@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <section>
+        <h3>
+          <%= gravatar_for @user, size: 50 %>
+          <%= link_to @user.name, @user %>
+          <%= render 'users/follow_form' if signed_in? %>
+        </h3>
+        <span><b>说说:</b> <%= @user.microposts.count %></span>
+        <br>
+        <span><b>地图:</b> <%= @user.maps.count %></span>
+      </section>
+
+      <section>
+        <%= render 'users/status' %>
+
+        <% if @users.any? %>
+            <div class="user_avatars">
+              <% @users.each do |user| %>
+                  <%= link_to gravatar_for(user, size: 30), user %>
+              <% end %>
+            </div>
+        <% end %>
+
+      </section>
+    </div>
+    <div class="col-md-8">
+      <h3><%= @title %></h3>
+      <% if @users.any? %>
+          <ul class="users">
+            <%= render @users %>
+          </ul>
+          <%= will_paginate %>
+      <% end %>
+    </div>
+  </div>
+</div>

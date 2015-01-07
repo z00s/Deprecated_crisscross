@@ -1,0 +1,64 @@
+<div class="row">
+  <div class="col-md-2" style="padding: 20px">
+    <ul class="nav nav-list nav-pills nav-stacked">
+      <li class="nav-header">
+        <p>
+          <%= gravatar_for @user, size: 40 %>
+          <%= link_to @user.name, @user %>
+          <%= render 'users/follow_form' if signed_in? %>
+        </p>
+      </li>
+      <li>
+        <section>
+          <%= render 'users/status' %>
+        </section>
+      </li>
+      <li>
+        <%= link_to "个人主页", current_user %>
+      </li>
+      <li>
+        <%= link_to "关注圈子", '/main/home'%>
+      </li>
+      <li>
+        <%= link_to "所有用户", list_path %>
+        <!--<a href="#"></a>-->
+      </li>
+      <li>
+        <%= link_to "TA的资料", "" %>
+      </li>
+      <li class="nav-header page-header" style="margin: 5px">
+          <strong>功能列表</strong>
+      </li>
+      <li>
+        <a href="#">资料信息</a>
+      </li>
+      <li>
+        <%= link_to "个人设置", current_user %>
+      </li>
+      <li class="divider">
+      </li>
+      <li>
+        <a href="#">帮助</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-6">
+    <blockquote>
+      <p>
+        Criss Cross 徜徉世界
+      </p>
+      <small>有你世界大不同</small>
+    </blockquote>
+    <!--中间分类显示-->
+    <%= render 'users/pagination' %>
+  </div>
+  <div class="col-md-4">
+    <blockquote>
+      <p>
+        广告
+
+      </p>
+      <small>关键词 <cite>开源</cite></small>
+    </blockquote>
+  </div>
+</div>

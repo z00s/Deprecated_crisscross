@@ -1,0 +1,47 @@
+<ul class="nav nav-list nav-pills nav-stacked">
+  <li class="nav-header">
+    <p>
+      <%= gravatar_for current_user, size: 40 %>
+      <%= link_to current_user.name, current_user %>
+    </p>
+  </li>
+  <li>
+    <section>
+      <%= render 'users/status' %>
+    </section>
+  </li>
+  <li>
+    <%= link_to "个人主页", current_user %>
+  </li>
+  <li>
+    <%= link_to "关注圈子", '/main/home'%>
+  </li>
+  <li>
+    <%= link_to "所有用户", list_path %>
+    <!--<a href="#"></a>-->
+  </li>
+  <li>
+    <!--<%= link_to "地图", maps_path %>-->
+  </li>
+  <li class="nav-header page-header" style="margin: 5px">
+    <strong>功能列表</strong>
+  </li>
+  <li>
+    <a href="#">资料信息</a>
+  </li>
+  <li>
+    <%= link_to "个人设置", edit_user_url(current_user) %>
+  </li>
+  <li class="divider">
+  </li>
+  <li>
+    <a href="#">帮助</a>
+  </li>
+  <li class="nav-header page-header" style="margin: 5px">
+    <!--<strong>好友列表</strong>-->
+  </li>
+  <li>
+
+  </li>
+
+</ul>

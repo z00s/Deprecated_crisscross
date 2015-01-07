@@ -1,0 +1,25 @@
+  [1m[36m (221.5ms)[0m  [1mDROP DATABASE IF EXISTS `CrissCross_test`[0m
+  [1m[35m (26.6ms)[0m  CREATE DATABASE `CrissCross_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`
+  [1m[36m (241.4ms)[0m  [1mCREATE TABLE `maps` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `title` varchar(255), `desc` text, `type` int(11), `browse_count` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (297.8ms)[0m  CREATE INDEX `index_maps_on_user_id_and_created_at` USING btree ON `maps` (`user_id`, `created_at`) 
+  [1m[36m (154.1ms)[0m  [1mCREATE TABLE `markers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `map_id` int(11), `lat` varchar(255), `lng` varchar(255), `title` varchar(255), `desc` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (310.3ms)[0m  CREATE INDEX `index_markers_on_map_id_and_lat_and_lng` USING btree ON `markers` (`map_id`, `lat`, `lng`) 
+  [1m[36m (131.2ms)[0m  [1mCREATE TABLE `microposts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `content` varchar(255), `user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (335.0ms)[0m  CREATE INDEX `index_microposts_on_user_id_and_created_at` USING btree ON `microposts` (`user_id`, `created_at`) 
+  [1m[36m (178.3ms)[0m  [1mCREATE TABLE `relationships` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `follower_id` int(11), `followed_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (306.3ms)[0m  CREATE INDEX `index_relationships_on_followed_id` USING btree ON `relationships` (`followed_id`) 
+  [1m[36m (303.2ms)[0m  [1mCREATE UNIQUE INDEX `index_relationships_on_follower_id_and_followed_id` USING btree ON `relationships` (`follower_id`, `followed_id`) [0m
+  [1m[35m (276.3ms)[0m  CREATE INDEX `index_relationships_on_follower_id` USING btree ON `relationships` (`follower_id`) 
+  [1m[36m (166.6ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `email` varchar(255), `password_digest` varchar(255), `sex` varchar(255), `birth` date, `phone` varchar(255), `address` varchar(255), `head` varchar(255), `state` int(11), `map_num` int(11), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(255), `admin` tinyint(1) DEFAULT 0) ENGINE=InnoDB[0m
+  [1m[35m (330.9ms)[0m  CREATE INDEX `index_users_on_remember_token` USING btree ON `users` (`remember_token`) 
+  [1m[36m (435.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (353.4ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`) 
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (86.0ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20140510062214')
+  [1m[36m (56.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20140510024631')[0m
+  [1m[35m (86.5ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20140510024939')
+  [1m[36m (67.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20140510024327')[0m
+  [1m[35m (77.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20140510024724')
+  [1m[36m (55.1ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20140510024440')[0m
+  [1m[35m (74.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20140510024857')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m

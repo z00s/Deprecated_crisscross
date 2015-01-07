@@ -1,0 +1,10 @@
+<%= form_for (@micropost), remote: true do |f| %>
+    <div class="field">
+      <%= f.text_area :content, placeholder: "说点什么吧...140个字以内",
+                      class:"form-control", rows:"3", style:"max-width:100%"%>
+    </div>
+    <br>
+
+    <%= f.submit "发表说说", class: "btn btn-large btn-primary" %>
+
+<% end %>

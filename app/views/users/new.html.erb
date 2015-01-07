@@ -1,0 +1,98 @@
+<%= javascript_include_tag 'jquery.min.js' %>
+<%= javascript_include_tag 'jquery.validate.min' %>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        会员注册
+      </div>
+      <div class="panel-body map_theme">
+        <!--<form class="form-horizontal" role="form">-->
+        <%= form_for :user, url: users_path, html: {id: 'user_form', class: 'form-horizontal',
+                                   role: 'form'} do |f| %>
+            <div class="form-group">
+              <%= f.label :用户名, class: 'col-md-2 control-label' %>
+              <div class="col-md-8">
+                <%= f.text_field :name, class: 'form-control' %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :邮箱, class: 'col-md-2 control-label' %>
+              <div class="col-md-8">
+                <%= f.text_field :email, class: 'form-control' %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :密码, class: 'col-md-2 control-label' %>
+              <div class="col-md-8">
+                <%= f.password_field :password, class: 'form-control' %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :密码确认, class: 'col-md-2 control-label' %>
+              <div class="col-md-8">
+                <%= f.password_field :password_confirmation, class: 'form-control' %>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="col-md-offset-2 col-md-10">
+                <%= f.submit "注册", class: 'btn btn-primary' %>
+              </div>
+            </div>
+        <% end %>
+
+      </div>
+      <!--panel-body-->
+    </div>
+    <!--panel-->
+  </div>
+  <!--col-->
+</div>
+<!--row-->
+
+<script type="text/javascript">
+    $('#user_form').validate({
+        rules: {
+            'user[name]': {
+                required: true,
+                rangelength: [1,10]
+            },
+            'user[email]': {
+                required: true,
+                email: true,
+//                format: /^([^@\s]+)@((?:[a-z0-9-]+\.)+[a-z]{2,})$/i,
+                remote: '/users/check_email'
+
+            },
+            'user[password]': {
+                required: true,
+                rangelength: [6,20]
+            }
+        },
+        messages: {
+            'user[name]': {
+                required: '请输入用户名！',
+                rangelength: jQuery.validator.format("长度介于 {0} 和 {1} 之间")
+            },
+            'user[email]': {
+                required: '请输入邮箱！',
+                email: '请输入正确的邮箱格式！',
+//                format: '请输入正确的邮箱格式',
+                remote: '用户已经注册'
+            },
+            'user[password]': {
+                required: '请输入密码！',
+                rangelength: jQuery.validator.format("长度介于 {0} 和 {1} 之间")
+            }
+        }
+    })
+    function register() {
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var password = $('#password').val();
+    }
+</script>
